@@ -1,0 +1,157 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+background-color: antiquewhite;
+max-width: 600px;
+
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: 55% 45%;
+   margin: 20px;
+
+}
+
+
+
+.new {
+    margin-top: 90px;
+    margin-left: 35px;
+    
+}
+
+.row1 {
+    grid-template-columns: repeat(2,1fr);
+ width: 400px;
+    margin-left: 25px;
+    margin-top: 40px;
+ 
+}
+
+.row2 {
+    width:400px;
+margin-left: 30px;
+margin-top: 40px;
+
+}
+
+.first-section {
+ 
+    display: grid;
+    width: 50rem;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+  margin-top: 10px;
+
+    
+}
+
+.text {
+    color: rgb(41, 39, 39);
+}
+
+.third {
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin: 20px;
+margin-top: -140px;
+margin-left: 36rem;
+
+
+}
+
+.pic1 { 
+    padding: 4px;
+    
+}
+
+.pic-1 {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    padding: 4px;
+ 
+ 
+   
+}
+.pic-2 {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    padding: 4px;
+    margin-left: 30px;
+    margin-top: 20px;
+ 
+}
+.pic-3 {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    padding: 4px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.pic-4 {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    padding: 4px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.gallery-1 {
+    width:9rem;
+    height:12rem;
+margin-bottom: 10px;
+}
+
+.gallery-2 {
+    width:9rem;
+    height:12rem;
+    margin-bottom: 10px;
+}
+
+.gallery-3 {
+    width:9rem;
+    height:12rem;
+}
+
+.gallery-4 {
+    width:9rem;
+    height:12rem;
+    margin-bottom: 10px;
+}
+
+.gallery-5 {
+    width:9rem;
+    height:12rem;
+    margin-bottom: 10px;
+}
+
+.gallery-6 {
+    width: 9rem;
+    height:12rem;
+    
+}
+
+.gallery-7 {
+    width:9rem;
+    height:12rem;
+    margin-bottom: 10px;
+}
+
+
+.gallery-8 {
+    width:9rem;
+    height:12rem;
+    margin-bottom: 10px;
+}
+
+.gallery-9 {
+    width:9rem;
+    height:12rem;
+}
